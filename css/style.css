@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+section{
+    width: 35vw;
+    height: 60vh;
+    background-color: rgba(126, 115, 115, 0.685);
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px;
+}
+#eingabe{
+    box-shadow: 1px 1px .5;
+    width: 28vw;
+    height: 6vh;
+    margin: 3vh auto;
+    background-color: rgb(221, 216, 216);
+    border: 2px solid black;
+    font-size: 32px;
+}
+.grid-container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 5px;
+    height: 40vh;
+    width: 30vw;       
+}
+button{
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 30%;
+    outline: none;
+}
+.number{
+    background-color: rgb(221, 216, 216);
+}
+.number1{
+    background-color: rgb(228, 197, 156);
+}
+.number1:hover{
+    background-color: rgba(222, 184, 135, 0.678);
+}
+.red{
+    background-color: rgba(255, 0, 0, 0.548);
+}
+.red:hover{
+    background-color: rgba(218, 22, 22, 0.548);
+}
+button:hover{
+    background-color: rgba(146, 142, 142, 0.685);
+}
